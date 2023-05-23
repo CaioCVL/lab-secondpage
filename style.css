@@ -9,6 +9,10 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+body{
+    background-image: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000');
+}
+
 .container{
     max-width: 1080px;
     display: flex;
@@ -55,3 +59,8 @@ header{
     color: #ffffff;
     font-weight: bold;
 }
+
+
+
+
+
