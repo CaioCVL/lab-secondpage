@@ -23,8 +23,8 @@
                 <nav>
                     <a href="index.html">HOME</a>
                     <a href="#sobre">SOBRE</a>
-                    <a href="#">HORÁRIOS</a>
-                    <a href="#">CONTATO</a>
+                    <a href="#horario">HORÁRIOS</a>
+                    <a href="#contatos">CONTATO</a>
                 </nav>
             </div>
 
@@ -38,17 +38,45 @@
     </header>
 
     <!--Conteúdo do site-->
-    <div class="content">
-        <div class="lista">
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+        <div class="content">
+            <div class="titulo">
+                <h1>O veterinário ideal para seu pet</h1>
+                <h2>  PLANTÃO 24 HORAS </h2>
+                
+            </div>
         </div>
-    </div>
-    
+
+        <div class="btn">
+            <button class="saiba-mais">Saber mais...</button>
+        </div>
+
+        <!--Formularios-->
+
+            <h2>Envie seus dados e fique por dentro das novidades</h2><br>
+        <div class="forms">
+            <form name="dados-pessoais" action="#">
+                <label for="inome">Nome completo <sup>*</sup> :</label> <input placeholder="Digite aqui" type="text" name="nome" id="inome"> <br>
+                <label for="iemail">E-mail<sup>*</sup>:</label> <input placeholder="Digite aqui" type="email" name="email" id="iemail"><br>
+                <label for="itelefone">Contato<sup>*</sup>:</label> <input placeholder="Digite aqui" type="tel" name="telefone" id="itelefone"><br>
+                
+                <label for="contato">Preferência de contato:</label>
+                <select name="contato">
+                    
+                    <option value="ambos">ambos</option>
+                    <option value="email">E-Mail</option>
+                    <option value="wpp">WhatsApp</option>
+                </select>
+                
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+
+        </div>
+
+
+
+
+
 </body>
 
 </html>

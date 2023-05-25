@@ -7,10 +7,13 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
+    
 }
 
 body{
     background-image: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000');
+    background-size: auto;
+    background-position: right;
 }
 
 .container{
@@ -60,7 +63,48 @@ header{
     font-weight: bold;
 }
 
+.lista ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.content, .titulo{
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 12px;
+    
+}
 
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(255, 228, 196, 0.699);
+    display: inline-block;
+    
+}
 
+.titulo h2{
+    color: rgba(233, 148, 37, 0.911);
+}
 
+.saiba-mais, .btn{
+    padding: 10px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.saiba-mais{
+    font-size: 17px;
+    background-color: rgba(97, 231, 8, 0.699);
+    border-radius: 10px;
+    border: solid 2px black;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
