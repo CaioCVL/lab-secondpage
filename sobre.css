@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+font-family: 'Playfair Display', serif;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://www.cptcursospresenciais.com.br/blog/wp-content/uploads/2019/04/Como-ser-o-m%C3%A9dico-veterin%C3%A1rio-mais-desejado-do-mercado-5-passos-que-a-faculdade-n%C3%A3o-te-ensina_artigo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container .titulo{
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+   background-color: #ffffff65;
+   position: absolute;
+   left: 50%;
+   top: 10%;
+   transform: translate(-50%, -50%);
+   
+}
+
+.texto{
+    
+    padding-top: 30px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+p{
+    border-radius: 2px;
+    text-align: justify;
+    text-indent: 20px;
+    font-weight: bold;
+    background-color: #ffffff65;
+    padding: 10px;
+}
+
+.container .home{
+    color: yellow;
+    font-weight: bold;
+    padding: 20px;
+
+}

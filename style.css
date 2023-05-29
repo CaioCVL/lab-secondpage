@@ -99,12 +99,73 @@ header{
     
 }
 
-.saiba-mais{
-    font-size: 17px;
-    background-color: rgba(97, 231, 8, 0.699);
+.saiba-mais,.aa{
+    padding: 3px;
+    background-color: black;
     border-radius: 10px;
     border: solid 2px black;
-    color: black;
+    color: white;
     font-weight: bold;
     cursor: pointer;
+}
+
+.h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.dados-pessoais, .forms{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+.forms div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+
+form input{
+    outline: unset;
+    width: 300px;
+   padding: 4px;
+   border-radius: 5%;
+
+}
+
+form select{
+    font-weight: bold;
+}
+
+form button{
+    padding: 5px;
+    border-radius: 5%;
+    font-weight: bold;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+form{
+    background-color: rgba(255, 228, 196, 0.699);
+    padding: 20px;
+    border-radius: 8%;
+    border: 2px solid black;
+}
+
+footer .rodape{
+    text-align: center;
+    background-color: #ffffffa9;
+    font-weight: bold;
+    padding: 20px;
 }
