@@ -163,9 +163,11 @@ form{
     border: 2px solid black;
 }
 
-footer .rodape{
-    text-align: center;
+footer .rodape ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
     background-color: #ffffffa9;
     font-weight: bold;
-    padding: 20px;
+    padding: 12px;
 }
