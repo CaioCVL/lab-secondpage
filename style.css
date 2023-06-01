@@ -30,7 +30,7 @@ header{
     padding: 10px;
 }
 
-.logo, .sociais{
+.logo{
     width: 25%;
 }
 
@@ -45,13 +45,7 @@ header{
     font-size: 18px;
 }
 
-.sociais button{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-right: 12px;
-}
+
 
 .sociais button i{
     font-size: 20px;
@@ -170,4 +164,5 @@ footer .rodape ul{
     background-color: #ffffffa9;
     font-weight: bold;
     padding: 12px;
+    margin: 0 auto;
 }
